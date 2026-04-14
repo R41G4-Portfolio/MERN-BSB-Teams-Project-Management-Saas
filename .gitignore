@@ -26,9 +26,6 @@ build/
 .env.test.local
 .env.production.local
 .env.sample
-.env.example
-# (Nota: Algunos prefieren subir el .env.example, pero si quieres 
-# seguridad total de no filtrar ni los nombres de las variables, ignóralo)
 
 # Logs
 logs
@@ -166,3 +163,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Especificos del curso
+data.txt
